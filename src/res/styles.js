@@ -12,7 +12,7 @@ export const StyledContentWrapper = styled.div`
 
 export const StyledSectionWrapper = styled.div`
   &&& {
-    margin: 60px 0px;
+    margin: 60px 0px 0px 0px;
     width: 75%;
   }
 `;

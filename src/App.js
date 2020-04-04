@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Landing from "./sections/Landing/Landing";
 import About from "./sections/About/About";
 import {StyledContentWrapper} from "./res/styles";
+import Work from "./sections/Work/Work";
 
 class App extends Component {
 
@@ -11,6 +12,7 @@ class App extends Component {
         <Landing/>
         <StyledContentWrapper>
           <About/>
+          <Work/>
         </StyledContentWrapper>
       </div>
     )

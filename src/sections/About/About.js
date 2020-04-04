@@ -10,7 +10,7 @@ import {
   StyledSocialContainer
 } from "./styles";
 import strings from "../../res/strings";
-import profile from '../../res/images/profile1.jpg';
+import profile from '../../res/images/profile.jpg';
 
 class About extends Component {
 
@@ -31,7 +31,8 @@ class About extends Component {
                              target="_blank"/>
         <StyledSocialButtons icon='github alternate' size='big' href="https://github.com/lindaayangg"
                              target="_blank"/>
-        <StyledSocialButtons icon='mail' size='big' href='mailto:xiaoling.yang@uwaterloo.ca'/>
+        <StyledSocialButtons icon='mail' size='big' href='mailto:xiaoling.yang@uwaterloo.ca'
+                             target="_blank"/>
         <StyledButton
           // href={resume}
           target='_blank'>
@@ -48,15 +49,11 @@ class About extends Component {
           <StyledSectionTitle>
             <StyledLine/>{strings.section.about}<StyledLine/>
           </StyledSectionTitle>
-
           <StyledImageContainer>
             <StyledImage src={profile}/>
           </StyledImageContainer>
-
           {this.renderDescription()}
-
           {this.renderSocial()}
-
         </StyledAboutWrapper>
       </StyledSectionWrapper>
     )
