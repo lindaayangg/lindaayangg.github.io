@@ -45,7 +45,7 @@ class About extends Component {
 
   render() {
     return (
-      <StyledSectionWrapper>
+      <StyledSectionWrapper id="about" name="about">
         <StyledAboutWrapper>
           <StyledSectionTitle>
             <StyledLine/>{strings.section.about}<StyledLine/>

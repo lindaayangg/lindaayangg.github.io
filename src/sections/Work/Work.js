@@ -12,7 +12,7 @@ class Work extends Component {
 
   render() {
     return (
-      <StyledSectionWrapper>
+      <StyledSectionWrapper id="experience" name="experience">
         <StyledWorkWrapper>
           <StyledSectionTitle>
             <StyledLine/>{strings.section.work}<StyledLine/>

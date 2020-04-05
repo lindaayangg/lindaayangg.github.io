@@ -19,7 +19,6 @@ export const StyledProjectCard = styled(Segment)`
 export const StyledProjectImage = styled(Image)`
   &&& {
     width: 100%;
-    border-radius: 15px 15px 0px 0px;
     &:hover {
       opacity:0.5;
       -moz-transition: all 0.7s;

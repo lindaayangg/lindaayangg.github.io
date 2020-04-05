@@ -1,4 +1,10 @@
 const strings = {
+  navbar: {
+    home: 'Home',
+    about: 'About',
+    experience: 'Experience',
+    project: 'Projects'
+  },
   landing: {
     intro: 'Hi, I am Linda. ',
     whatIAm: 'I am a ',
@@ -86,7 +92,7 @@ const strings = {
       description: 'A web application that provides a sustainable and communal grocery shopping experience.',
     }
   },
-  copyRight: '2020 © Linda Yang - All Rights Reserved.',
+  copyRight: '© Linda Yang 2020.',
 };
 
 export default strings;

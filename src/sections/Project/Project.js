@@ -87,7 +87,7 @@ class Project extends Component {
 
   render() {
     return (
-      <StyledSectionWrapper>
+      <StyledSectionWrapper id="project" name="project">
         <StyledProjectWrapper>
           <StyledSectionTitle>
             <StyledLine/>{strings.section.project}<StyledLine/>

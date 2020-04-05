@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Button, Header} from "semantic-ui-react";
+import {Header, Icon} from "semantic-ui-react";
 
 export const StyledLandingWrapper = styled.div`
   &&& {
@@ -34,7 +34,7 @@ export const StyledHeader = styled(Header)`
   }
 `;
 
-export const StyledDownIcon = styled(Button)`
+export const StyledDownIcon = styled(Icon)`
   &&& {
     background-color: transparent;
     color: #ffffff;

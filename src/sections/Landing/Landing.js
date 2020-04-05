@@ -3,12 +3,14 @@ import Particles from "react-particles-js";
 import strings from "../../res/strings";
 import Typical from "react-typical";
 import {StyledContentWrapper, StyledDownIcon, StyledHeader, StyledLandingWrapper} from "./styles";
+import Navbar from "../../components/Navbar/Navbar";
 
 class Landing extends Component {
 
   renderLanding = () => {
     return (
-      <StyledLandingWrapper>
+      <StyledLandingWrapper id="home" name="home">
+        <Navbar/>
         <Particles
           height='100vh'
           params={{
@@ -101,8 +103,8 @@ class Landing extends Component {
           </StyledHeader>
         </StyledContentWrapper>
         <StyledDownIcon
-          size={"massive"}
-          icon={"angle double down"}
+          size={"big"}
+          name={"angle double down"}
         />
       </StyledLandingWrapper>
     )
