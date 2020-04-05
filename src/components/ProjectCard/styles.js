@@ -20,6 +20,12 @@ export const StyledProjectImage = styled(Image)`
   &&& {
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    &:hover {
+      opacity:0.5;
+      -moz-transition: all 0.7s;
+      -webkit-transition: all 0.7s;
+      transition: all 0.7s;
+    }
   }
 `;
 
@@ -49,8 +55,11 @@ export const StyledGithubIcon = styled(Button)`
   &&& {
     background-color: transparent;
     color: #68BAF0;
-    margin-left: 5px;
+    margin: -3px 0px 0px 5px;
     font-size: 1.3em;
+    &:hover{
+      opacity: 0.7;
+    }
   }
 `;
 

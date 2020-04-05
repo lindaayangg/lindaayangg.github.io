@@ -4,8 +4,12 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import {GridColumn} from "semantic-ui-react";
 import {StyledLine, StyledProjectGrid, StyledProjectWrapper} from "./styles";
 import strings from "../../res/strings";
-import wave from "../../res/images/wave.png"
-import budgetbuddy from "../../res/images/budgetbuddy.png"
+import wave from "../../res/images/wave.jpg"
+import budgetbuddy from "../../res/images/budgetbuddy.jpg"
+import distractic from "../../res/images/distractic.jpg"
+import safeme from "../../res/images/safeme.jpg"
+import groshare from "../../res/images/groshare.jpg"
+import toolsbucket from "../../res/images/toolsbucket.jpg"
 
 class Project extends Component {
 
@@ -15,11 +19,11 @@ class Project extends Component {
         <StyledProjectGrid columns={3}>
           <GridColumn>
             <ProjectCard
-              image={wave}
+              image={toolsbucket}
               name={strings.project.toolsbucket.name}
               date={strings.project.toolsbucket.date}
               description={strings.project.toolsbucket.description}
-              github={"https://github.com/lindaayangg"}
+              github={"https://github.com/lindaayangg/ToolsBucket"}
               tools={strings.project.toolsbucket.name}
             />
           </GridColumn>
@@ -29,7 +33,7 @@ class Project extends Component {
               name={strings.project.wave.name}
               date={strings.project.wave.date}
               description={strings.project.wave.description}
-              github={"https://github.com/lindaayangg"}
+              github={"https://github.com/lindaayangg/Wave-Web"}
               tools={strings.project.wave.name}
             />
           </GridColumn>
@@ -39,7 +43,7 @@ class Project extends Component {
               name={strings.project.budgetbuddy.name}
               date={strings.project.budgetbuddy.date}
               description={strings.project.budgetbuddy.description}
-              github={"https://github.com/lindaayangg"}
+              github={"https://github.com/lindaayangg/BudgetBuddy"}
               tools={strings.project.budgetbuddy.name}
             />
           </GridColumn>
@@ -48,31 +52,31 @@ class Project extends Component {
         <StyledProjectGrid columns={3}>
           <GridColumn>
             <ProjectCard
-              image={wave}
+              image={distractic}
               name={strings.project.distractic.name}
               date={strings.project.distractic.date}
               description={strings.project.distractic.description}
-              github={"https://github.com/lindaayangg"}
+              github={"https://github.com/davidhqr/Distractic"}
               tools={strings.project.distractic.name}
             />
           </GridColumn>
           <GridColumn>
             <ProjectCard
-              image={wave}
+              image={safeme}
               name={strings.project.safeme.name}
               date={strings.project.safeme.date}
               description={strings.project.safeme.description}
-              github={"https://github.com/lindaayangg"}
+              github={"https://github.com/davidhqr/SafeMe"}
               tools={strings.project.safeme.name}
             />
           </GridColumn>
           <GridColumn>
             <ProjectCard
-              image={budgetbuddy}
+              image={groshare}
               name={strings.project.groshare.name}
               date={strings.project.groshare.date}
               description={strings.project.groshare.description}
-              github={"https://github.com/lindaayangg"}
+              github={"https://github.com/davidhqr/GroShare"}
               tools={strings.project.groshare.name}
             />
           </GridColumn>

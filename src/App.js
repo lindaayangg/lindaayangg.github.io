@@ -4,6 +4,7 @@ import About from "./sections/About/About";
 import {StyledContentWrapper} from "./res/styles";
 import Work from "./sections/Work/Work";
 import Project from "./sections/Project/Project";
+import CopyRight from "./sections/CopyRight/CopyRight";
 
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
           <About/>
           <Work/>
           <Project/>
+          <CopyRight/>
         </StyledContentWrapper>
       </div>
     )

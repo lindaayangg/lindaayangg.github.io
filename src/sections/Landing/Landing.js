@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Particles from "react-particles-js";
 import strings from "../../res/strings";
 import Typical from "react-typical";
-import {StyledContentWrapper, StyledHeader, StyledLandingWrapper} from "./styles";
+import {StyledContentWrapper, StyledDownIcon, StyledHeader, StyledLandingWrapper} from "./styles";
 
 class Landing extends Component {
 
@@ -100,6 +100,10 @@ class Landing extends Component {
             />
           </StyledHeader>
         </StyledContentWrapper>
+        <StyledDownIcon
+          size={"massive"}
+          icon={"angle double down"}
+        />
       </StyledLandingWrapper>
     )
   };

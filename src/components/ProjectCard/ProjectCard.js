@@ -40,7 +40,11 @@ class ProjectCard extends Component {
       <StyledProjectCard>
         <Grid columns={2}>
           <StyledImageRowWrapper>
-            <StyledProjectImage src={this.props.image}/>
+            <StyledProjectImage
+              href={this.props.github}
+              target="_blank"
+              src={this.props.image}
+            />
           </StyledImageRowWrapper>
           <StyledDescriptionRowWrapper>
             <StyledProjectName>

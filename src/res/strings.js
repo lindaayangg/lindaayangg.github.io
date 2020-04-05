@@ -85,7 +85,8 @@ const strings = {
       date: '2019',
       description: 'A web application that provides a sustainable and communal grocery shopping experience.',
     }
-  }
+  },
+  copyRight: '2020 © Linda Yang - All Rights Reserved.',
 };
 
 export default strings;

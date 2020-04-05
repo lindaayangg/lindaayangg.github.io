@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Header} from "semantic-ui-react";
+import {Button, Header} from "semantic-ui-react";
 
 export const StyledLandingWrapper = styled.div`
   &&& {
@@ -31,5 +31,18 @@ export const StyledHeader = styled(Header)`
     @media (max-width: 400px) {
       font-size: 25px;
     }
+  }
+`;
+
+export const StyledDownIcon = styled(Button)`
+  &&& {
+    background-color: transparent;
+    color: #ffffff;
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -25px;
+    margin-bottom: 30px;
   }
 `;
