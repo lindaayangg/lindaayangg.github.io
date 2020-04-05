@@ -11,6 +11,7 @@ const strings = {
   section: {
     about: 'A Little Bit About Me',
     work: 'Where I\'ve Been',
+    project: 'What I\'ve Done',
   },
   about: {
     introduction: 'Hello there, welcome! My name is Linda, a third year Computational Mathematics student at the University of Waterloo ' +
@@ -52,6 +53,38 @@ const strings = {
       date: 'Oct. 2015 - Aug. 2017',
       description: 'Provided professional healthcare and customer service.'
     },
+  },
+  project: {
+    toolsbucket: {
+      name: 'ToolsBucket',
+      date: '2020',
+      description: 'A web application containing a variety of developer tools ranging from strings, JSON, SQL to images.',
+    },
+    wave: {
+      name: 'Wave',
+      date: '2019 - 2020',
+      description: 'A suite of application that uses sound wave technology to provide cross-platform file, image and data transfer.',
+    },
+    budgetbuddy: {
+      name: 'BudgetBuddy',
+      date: '2018',
+      description: 'An Android application that recommends shopping alternatives to help one to achieve their desired budgets.',
+    },
+    distractic: {
+      name: 'Distractic',
+      date: '2018',
+      description: 'An Android application that reduces road accidents caused by distracted driving.',
+    },
+    safeme: {
+      name: 'SafeMe',
+      date: '2019',
+      description: 'A web application that provides women a better and safer way to plan their trips at night.',
+    },
+    groshare: {
+      name: 'GroShare',
+      date: '2019',
+      description: 'A web application that provides a sustainable and communal grocery shopping experience.',
+    }
   }
 };
 

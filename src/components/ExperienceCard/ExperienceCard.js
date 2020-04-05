@@ -20,7 +20,7 @@ class ExperienceCard extends Component {
     const skip = ['Java 8', 'Spark', 'ReactJS', 'JS', 'TS', 'Redux', 'AWS', 'SQL', 'REST API', 'Jooq', 'Memcached',
       'Redis', 'ElasticSearch'];
     const formlabs = ['ReactJS', 'D3.js', 'Python', 'Django', 'DjangoCMS', 'PostgreSQL', 'REST API', 'JS', 'jQuery', 'GraphQL' ];
-    const sydney = ['HTML| CSS', 'JS', 'jQuery', 'Magento', 'PHP', 'Photoshop'];
+    const sydney = ['HTML | CSS', 'JS', 'jQuery', 'Magento', 'PHP', 'Photoshop'];
     const shoppers = ['HealthWatch', 'MMS Software System'];
     return (
       <div>

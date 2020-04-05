@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-import {StyledButton, StyledSectionTitle, StyledSectionWrapper} from "../../res/styles";
+import {StyledSectionTitle, StyledSectionWrapper} from "../../res/styles";
 import {
   StyledAboutWrapper,
   StyledDescription,
   StyledImage,
   StyledImageContainer,
   StyledLine,
+  StyledResumeButton,
   StyledSocialButtons,
   StyledSocialContainer
 } from "./styles";
@@ -33,11 +34,11 @@ class About extends Component {
                              target="_blank"/>
         <StyledSocialButtons icon='mail' size='big' href='mailto:xiaoling.yang@uwaterloo.ca'
                              target="_blank"/>
-        <StyledButton
+        <StyledResumeButton
           // href={resume}
           target='_blank'>
           {strings.about.resume}
-        </StyledButton>
+        </StyledResumeButton>
       </StyledSocialContainer>
     )
   };
