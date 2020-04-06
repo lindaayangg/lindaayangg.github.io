@@ -54,6 +54,7 @@ export const StyledCompanyName = styled(Header)`
 export const StyledLocation = styled.p`
   &&& {
     font-size: 15px;
+    color: rgba(0,0,0,.6);
   }
 `;
 
@@ -65,30 +66,6 @@ export const StyledPosition = styled(Header)`
     // Laptop(L)+
     @media (min-width: 1440px) {
       font-size: 18px;
-    }
-  }
-`;
-
-export const StyledDate = styled.p`
-  &&& {
-    margin: 0;
-    font-size: 13px;
-    color: rgba(0,0,0,.4);
-    // Laptop(L)+
-    @media (min-width: 1440px) {
-      font-size: 15px;
-    }
-  }
-`;
-
-export const StyledDescription = styled.p`
-  &&& {
-    margin-top: 5px;
-    font-size: 14px;
-    color: rgba(0,0,0,.68);
-    // Laptop(L)+
-    @media (min-width: 1440px) {
-      font-size: 15px;
     }
   }
 `;

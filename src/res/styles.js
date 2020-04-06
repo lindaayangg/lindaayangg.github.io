@@ -44,5 +44,35 @@ export const StyledSectionTitle = styled(Header)`
     @media (min-width: 1024px) and (max-width: 1439px) {
       font-size: 30px;
     }
+    // Tablet -
+    @media (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+`;
+
+export const StyledDate = styled.p`
+  &&& {
+    margin: 0;
+    font-size: 13px;
+    color: rgba(0,0,0,.4);
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      font-size: 15px;
+    }
+  }
+`;
+
+export const StyledDescription = styled.p`
+  &&& {
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgba(0,0,0,.68);
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      font-size: 15px;
+    }
   }
 `;

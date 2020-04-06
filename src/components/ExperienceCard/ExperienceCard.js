@@ -3,8 +3,6 @@ import {
   StyledCompanyColumn,
   StyledCompanyLogo,
   StyledCompanyName,
-  StyledDate,
-  StyledDescription,
   StyledExperienceCardGrid,
   StyledLocation,
   StyledNameLocationContainer,
@@ -13,6 +11,7 @@ import {
   StyledWorkDescriptionColumn
 } from "./styles";
 import strings from "../../res/strings";
+import {StyledDate, StyledDescription} from "../../res/styles";
 
 class ExperienceCard extends Component {
 
