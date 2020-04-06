@@ -19,12 +19,20 @@ export const StyledCompanyColumn = styled(GridColumn)`
 export const StyledWorkDescriptionColumn = styled(GridColumn)`
   &&& {
     text-align: left;
+    // Laptop -
+    @media (max-width: 1023px) {
+      text-align: center;
+    }
   }
 `;
 
 export const StyledCompanyLogo = styled(Image)`
   &&& {
-    width: 120px;
+    width: 100px;
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      width: 120px;
+    }
   }
 `;
 
@@ -52,24 +60,36 @@ export const StyledLocation = styled.p`
 export const StyledPosition = styled(Header)`
   &&& {
     color: #BF9BBD;
-    font-size: 18px;
-    margin: 0;
+    font-size: 16px;
+    margin: 0;    
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      font-size: 18px;
+    }
   }
 `;
 
 export const StyledDate = styled.p`
   &&& {
     margin: 0;
-    font-size: 15px;
+    font-size: 13px;
     color: rgba(0,0,0,.4);
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      font-size: 15px;
+    }
   }
 `;
 
 export const StyledDescription = styled.p`
   &&& {
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(0,0,0,.68);
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      font-size: 15px;
+    }
   }
 `;
 
@@ -79,9 +99,13 @@ export const StyledSkill = styled(Label)`
     border: 1px solid #BF9BBD;
     color: rgba(0,0,0,.68);
     font-family: "Verdana", "Comic Sans MS", Roboto;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: normal;
     margin: 0px 5px 5px 0px;
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      font-size: 12px;
+    }
   }
 `;
 

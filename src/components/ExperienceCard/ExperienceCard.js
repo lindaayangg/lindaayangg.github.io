@@ -36,7 +36,7 @@ class ExperienceCard extends Component {
 
   render() {
     return (
-      <StyledExperienceCardGrid columns={2}>
+      <StyledExperienceCardGrid columns={2} stackable doubling>
         <StyledCompanyColumn>
           <StyledCompanyLogo
             circular
