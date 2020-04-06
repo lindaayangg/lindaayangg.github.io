@@ -25,7 +25,7 @@ export const StyledHeader = styled(Header)`
     color: #fff;
     margin-top: 15px;
     font-size: 25px;
-    font-family:  "Bradley Hand", "Comic Sans MS", Roboto;
+    font-family:  "Bradley Hand", "Comic Sans MS";
     // Laptop(L)+
     @media (min-width: 1440px) {
       font-size: 42px;

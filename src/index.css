@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family: Roboto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -8,4 +7,9 @@ body {
 code {
     font-family: sans-serif,
     monospace;
+}
+
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url("./font/Comic_Sans_MS.ttf");
 }
