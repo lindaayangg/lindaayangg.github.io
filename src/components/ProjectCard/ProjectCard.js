@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import {
-  StyledDate,
-  StyledDescription,
   StyledDescriptionRowWrapper,
   StyledGithubIcon,
   StyledImageRowWrapper,
@@ -11,6 +9,7 @@ import {
 } from "./styles";
 import {Grid} from "semantic-ui-react";
 import strings from "../../res/strings";
+import {StyledDate, StyledDescription} from "../../res/styles";
 
 class ProjectCard extends Component {
 

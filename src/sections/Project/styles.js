@@ -42,5 +42,10 @@ export const StyledLine = styled.hr`
     @media (min-width: 768px) and (max-width: 1023px) {
       width: 40px;
     }
+    // Tablet -
+    @media (max-width: 767px) {
+      margin: 10px 15px 10px 15px;
+      width: 250px;
+    }
   }
 `;

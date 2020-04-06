@@ -4,7 +4,7 @@ import {Menu} from "semantic-ui-react";
 export const StyledNavbarWrapper = styled(Menu)`
   &&& {
     background-color: #000000;
-    height: 53px;
+    padding: 30px;
     box-shadow: none;
     border: none;
     display: flex;
@@ -13,6 +13,7 @@ export const StyledNavbarWrapper = styled(Menu)`
     // Mobile(S) - Tablet
     @media (min-width: 320px) and (max-width: 767px) {
       justify-content: center;
+      padding: 20px;
     }
   }
 `;

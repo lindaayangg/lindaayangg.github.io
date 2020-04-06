@@ -12,6 +12,7 @@ import {
 } from "./styles";
 import strings from "../../res/strings";
 import profile from '../../res/images/profile.jpg';
+import resume from "../../res/Resume_Linda_Yang.pdf";
 
 class About extends Component {
 
@@ -45,26 +46,26 @@ class About extends Component {
 
   renderSocial = () => {
     const {screenWidth} = this.state;
-    console.log(screenWidth);
     return (
       <StyledSocialContainer>
         <StyledSocialButtons
           icon='linkedin'
-          size={screenWidth < 425 ? 'small' : screenWidth >= 425 && screenWidth < 768 ? 'medium' : 'big'}
+          size={screenWidth < 425 ? 'small' : 'medium'}
           href="https://www.linkedin.com/in/lindaayangg/"
           target="_blank"/>
         <StyledSocialButtons
           icon='github alternate'
-          size={screenWidth < 425 ? 'small' : screenWidth >= 425 && screenWidth < 768? 'medium' : 'big'}
+          size={screenWidth < 425 ? 'small' : 'medium'}
           href="https://github.com/lindaayangg"
           target="_blank"/>
         <StyledSocialButtons
           icon='mail'
-          size={screenWidth < 425 ? 'small' : screenWidth >= 425 && screenWidth < 768 ? 'medium' : 'big'}
+          size={screenWidth < 425 ? 'small' : 'medium'}
           href='mailto:xiaoling.yang@uwaterloo.ca'
           target="_blank"/>
         <StyledResumeButton
-          // href={resume}
+          href={resume}
+          size={screenWidth < 425 ? 'small' : 'medium'}
           target='_blank'>
           {strings.about.resume}
         </StyledResumeButton>
