@@ -46,15 +46,23 @@ export const StyledNameLocationContainer = styled.div`
 export const StyledCompanyName = styled(Header)`
   &&& {
     color: #BF9BBD;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      font-size: 18px;
+    }
   }
 `;
 
 export const StyledLocation = styled.p`
   &&& {
-    font-size: 15px;
+    font-size: 14px;
     color: rgba(0,0,0,.6);
+    // Laptop(L)+
+    @media (min-width: 1440px) {
+      font-size: 15px;
+    }
   }
 `;
 

@@ -7,13 +7,9 @@ export const StyledWorkWrapper = styled(Segment)`
     padding: 60px 50px;
     border-radius: 15px;
     border: none;
-    // Laptop(L)+
-    @media (min-width: 1440px) {
+    // Laptop+
+    @media (min-width: 1024px) {
       padding: 60px 150px;
-    }
-    // Laptop - Laptop(L)
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      padding: 60px 80px;
     }
     // Mobile(L) - Tablet
     @media (min-width: 425px) and (max-width: 767px) {

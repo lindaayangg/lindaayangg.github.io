@@ -7,8 +7,8 @@ export const StyledAboutWrapper = styled(Segment)`
     padding: 60px 80px;
     border-radius: 15px;
     border: none;
-    // Laptop(L)+
-    @media (min-width: 1440px) {
+    // Laptop+
+    @media (min-width: 1024px) {
       padding: 60px 150px;
     }
     // Mobile(L) - Tablet
@@ -56,7 +56,7 @@ export const StyledImage = styled(Image)`
     border-radius: 10px;
     // Laptop+
     @media (min-width: 1024px) {
-      width: 40%;
+      width: 30%;
     }
     // Mobile(L) - Tablet
     @media (min-width: 425px) and (max-width: 767px) {
