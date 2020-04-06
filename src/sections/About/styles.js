@@ -113,7 +113,6 @@ export const StyledResumeButton = styled(Button)`
     margin: 0px 12px;
     background-color: #ffffff;
     border: 2px solid #C5D9F5;
-    font-family: "Comic Sans MS";
     // Mobile(L) - Tablet
     @media (min-width: 425px) and (max-width: 767px) {
       margin: 0px 10px;
