@@ -5,7 +5,7 @@ import {GridColumn} from "semantic-ui-react";
 import {StyledLine, StyledProjectGrid, StyledProjectWrapper} from "./styles";
 import strings from "../../res/strings";
 import wave from "../../res/images/wave.jpg"
-import budgetbuddy from "../../res/images/budgetbuddy.jpg"
+import budgetbuddy from "../../res/images/budgetbuddy.png"
 import distractic from "../../res/images/distractic.jpg"
 import safeme from "../../res/images/safeme.jpg"
 import groshare from "../../res/images/groshare.jpg"
