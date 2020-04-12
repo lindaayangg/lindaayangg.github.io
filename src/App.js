@@ -5,6 +5,7 @@ import {StyledContentWrapper} from "./res/styles";
 import Work from "./sections/Work/Work";
 import Project from "./sections/Project/Project";
 import CopyRight from "./sections/CopyRight/CopyRight";
+import {Dots} from "react-preloaders";
 
 class App extends Component {
 
@@ -18,6 +19,11 @@ class App extends Component {
           <Project/>
           <CopyRight/>
         </StyledContentWrapper>
+        <Dots
+          background="#000000"
+          color="#ffffff"
+          time={650}
+        />
       </div>
     )
   }

@@ -4,7 +4,7 @@ import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import {GridColumn} from "semantic-ui-react";
 import {StyledLine, StyledProjectGrid, StyledProjectWrapper} from "./styles";
 import strings from "../../res/strings";
-import wave from "../../res/images/wave.jpg"
+import wave from "../../res/images/wave.png"
 import budgetbuddy from "../../res/images/budgetbuddy.png"
 import distractic from "../../res/images/distractic.jpg"
 import safeme from "../../res/images/safeme.jpg"
