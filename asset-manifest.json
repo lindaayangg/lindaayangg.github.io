@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/devlinda/static/css/main.56da9176.chunk.css",
+    "main.js": "/devlinda/static/js/main.e90c261f.chunk.js",
+    "main.js.map": "/devlinda/static/js/main.e90c261f.chunk.js.map",
+    "runtime-main.js": "/devlinda/static/js/runtime-main.001e8a79.js",
+    "runtime-main.js.map": "/devlinda/static/js/runtime-main.001e8a79.js.map",
+    "static/css/2.0020d4a0.chunk.css": "/devlinda/static/css/2.0020d4a0.chunk.css",
+    "static/js/2.35f6a150.chunk.js": "/devlinda/static/js/2.35f6a150.chunk.js",
+    "static/js/2.35f6a150.chunk.js.map": "/devlinda/static/js/2.35f6a150.chunk.js.map",
+    "index.html": "/devlinda/index.html",
+    "precache-manifest.f2dcf8b2ccfee259356490c438b18f9f.js": "/devlinda/precache-manifest.f2dcf8b2ccfee259356490c438b18f9f.js",
+    "service-worker.js": "/devlinda/service-worker.js",
+    "static/css/2.0020d4a0.chunk.css.map": "/devlinda/static/css/2.0020d4a0.chunk.css.map",
+    "static/css/main.56da9176.chunk.css.map": "/devlinda/static/css/main.56da9176.chunk.css.map",
+    "static/js/2.35f6a150.chunk.js.LICENSE.txt": "/devlinda/static/js/2.35f6a150.chunk.js.LICENSE.txt",
+    "static/media/Comic_Sans_MS.ttf": "/devlinda/static/media/Comic_Sans_MS.a50f9c96.ttf",
+    "static/media/Resume_Linda_Yang.pdf": "/devlinda/static/media/Resume_Linda_Yang.53710493.pdf",
+    "static/media/semantic.min.css": "/devlinda/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/budgetbuddy.png": "/devlinda/static/media/budgetbuddy.67e8c43d.png",
+    "static/media/distractic.jpg": "/devlinda/static/media/distractic.07feeef6.jpg",
+    "static/media/groshare.jpg": "/devlinda/static/media/groshare.9bc0ac6a.jpg",
+    "static/media/profile.jpg": "/devlinda/static/media/profile.a48c39c5.jpg",
+    "static/media/safeme.jpg": "/devlinda/static/media/safeme.2d46553f.jpg",
+    "static/media/shoppers.png": "/devlinda/static/media/shoppers.9f9fdd18.png",
+    "static/media/skip.jpg": "/devlinda/static/media/skip.4697a32d.jpg",
+    "static/media/toolsbucket.jpg": "/devlinda/static/media/toolsbucket.1ef38ecf.jpg",
+    "static/media/wave.png": "/devlinda/static/media/wave.6a2bd933.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.001e8a79.js",
+    "static/css/2.0020d4a0.chunk.css",
+    "static/js/2.35f6a150.chunk.js",
+    "static/css/main.56da9176.chunk.css",
+    "static/js/main.e90c261f.chunk.js"
+  ]
+}
