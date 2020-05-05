@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.6464b916.chunk.css",
-    "main.js": "/static/js/main.a6d110af.chunk.js",
-    "main.js.map": "/static/js/main.a6d110af.chunk.js.map",
+    "main.js": "/static/js/main.4b7ff257.chunk.js",
+    "main.js.map": "/static/js/main.4b7ff257.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f2a0001.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f2a0001.js.map",
     "static/css/2.7df41cd5.chunk.css": "/static/css/2.7df41cd5.chunk.css",
-    "static/js/2.832e746a.chunk.js": "/static/js/2.832e746a.chunk.js",
-    "static/js/2.832e746a.chunk.js.map": "/static/js/2.832e746a.chunk.js.map",
+    "static/js/2.1a9de72e.chunk.js": "/static/js/2.1a9de72e.chunk.js",
+    "static/js/2.1a9de72e.chunk.js.map": "/static/js/2.1a9de72e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0d5c4c8f2cccf13586b9729a80bbf55b.js": "/precache-manifest.0d5c4c8f2cccf13586b9729a80bbf55b.js",
+    "precache-manifest.617f4e9c740b440ae272defbe8984e78.js": "/precache-manifest.617f4e9c740b440ae272defbe8984e78.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7df41cd5.chunk.css.map": "/static/css/2.7df41cd5.chunk.css.map",
     "static/css/main.6464b916.chunk.css.map": "/static/css/main.6464b916.chunk.css.map",
-    "static/js/2.832e746a.chunk.js.LICENSE.txt": "/static/js/2.832e746a.chunk.js.LICENSE.txt",
+    "static/js/2.1a9de72e.chunk.js.LICENSE.txt": "/static/js/2.1a9de72e.chunk.js.LICENSE.txt",
     "static/media/Comic_Sans_MS.ttf": "/static/media/Comic_Sans_MS.a50f9c96.ttf",
     "static/media/Resume_Linda_Yang.pdf": "/static/media/Resume_Linda_Yang.53710493.pdf",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
     "static/media/budgetbuddy.png": "/static/media/budgetbuddy.67e8c43d.png",
+    "static/media/covid19.jpg": "/static/media/covid19.765e26b9.jpg",
     "static/media/distractic.jpg": "/static/media/distractic.07feeef6.jpg",
     "static/media/groshare.jpg": "/static/media/groshare.9bc0ac6a.jpg",
     "static/media/profile.jpg": "/static/media/profile.a48c39c5.jpg",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.8f2a0001.js",
     "static/css/2.7df41cd5.chunk.css",
-    "static/js/2.832e746a.chunk.js",
+    "static/js/2.1a9de72e.chunk.js",
     "static/css/main.6464b916.chunk.css",
-    "static/js/main.a6d110af.chunk.js"
+    "static/js/main.4b7ff257.chunk.js"
   ]
 }
