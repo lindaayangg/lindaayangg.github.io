@@ -61,6 +61,11 @@ const strings = {
     },
   },
   project: {
+    covid19: {
+      name: 'Covid-19 API',
+      date: '2020',
+      description: 'A Java based API for tracking data of the covid-19 global pandemic.',
+    },
     toolsbucket: {
       name: 'ToolsBucket',
       date: '2020',

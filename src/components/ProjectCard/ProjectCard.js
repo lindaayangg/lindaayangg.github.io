@@ -14,6 +14,7 @@ import {StyledDate, StyledDescription} from "../../res/styles";
 class ProjectCard extends Component {
 
   renderTools() {
+    const covid19 = ["Java", "Spring", "Spring Boot", "Flyway", "MySQL"];
     const toolsbucket = ["ReactJS", "JS"];
     const wave = ["Flutter", "Chirp API", "Ruby", "Ruby On Rails", "ReactJS", "MySQL", "JS"];
     const budgetbuddy = ["Java", "TD Da Vinci API", "Yelp Fusion API", "Android Studio"];
@@ -22,13 +23,14 @@ class ProjectCard extends Component {
     const groshare = ["HTML | CSS (Bootstrap)", "JS", "jQuery", "LAMP"];
     return (
       <div>
-        {this.props.tools === strings.project.toolsbucket.name ? toolsbucket.map((tool) => <StyledTool>{tool}</StyledTool>)
-          : this.props.tools === strings.project.wave.name ? wave.map((tool) => <StyledTool>{tool}</StyledTool>)
-            : this.props.tools === strings.project.budgetbuddy.name ? budgetbuddy.map((skill) => <StyledTool>{skill}</StyledTool>)
-              : this.props.tools === strings.project.distractic.name ? distractic.map((skill) => <StyledTool>{skill}</StyledTool>)
-                : this.props.tools === strings.project.safeme.name ? safeme.map((skill) => <StyledTool>{skill}</StyledTool>)
-                  : this.props.tools === strings.project.groshare.name ? groshare.map((skill) => <StyledTool>{skill}</StyledTool>)
-                    : null
+        {this.props.tools === strings.project.covid19.name ? covid19.map((tool) => <StyledTool>{tool}</StyledTool>)
+          : this.props.tools === strings.project.toolsbucket.name ? toolsbucket.map((tool) => <StyledTool>{tool}</StyledTool>)
+            : this.props.tools === strings.project.wave.name ? wave.map((tool) => <StyledTool>{tool}</StyledTool>)
+              : this.props.tools === strings.project.budgetbuddy.name ? budgetbuddy.map((skill) => <StyledTool>{skill}</StyledTool>)
+                : this.props.tools === strings.project.distractic.name ? distractic.map((skill) => <StyledTool>{skill}</StyledTool>)
+                  : this.props.tools === strings.project.safeme.name ? safeme.map((skill) => <StyledTool>{skill}</StyledTool>)
+                    : this.props.tools === strings.project.groshare.name ? groshare.map((skill) => <StyledTool>{skill}</StyledTool>)
+                      : null
         }
       </div>
     )

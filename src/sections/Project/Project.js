@@ -10,12 +10,24 @@ import distractic from "../../res/images/distractic.jpg"
 import safeme from "../../res/images/safeme.jpg"
 import groshare from "../../res/images/groshare.jpg"
 import toolsbucket from "../../res/images/toolsbucket.jpg"
+import covid19 from "../../res/images/covid19.jpg"
 
 class Project extends Component {
 
   renderProjects() {
     return (
       <StyledProjectGrid columns={3} stackable doubling>
+        {/*Image size : 44 x 25 cm*/}
+        <GridColumn>
+          <ProjectCard
+            image={covid19}
+            name={strings.project.covid19.name}
+            date={strings.project.covid19.date}
+            description={strings.project.covid19.description}
+            github={"https://github.com/lindaayangg/covid19-api"}
+            tools={strings.project.covid19.name}
+          />
+        </GridColumn>
         <GridColumn>
           <ProjectCard
             image={toolsbucket}

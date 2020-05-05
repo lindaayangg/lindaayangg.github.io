@@ -15,7 +15,7 @@ export const StyledProjectWrapper = styled(Segment)`
     border: none;
     // Laptop(L)+
     @media (min-width: 1440px) {
-      padding: 60px 150px;
+      padding: 60px 100px;
     }
     // Laptop - Laptop(L)
     @media (min-width: 1024px) and (max-width: 1439px) {
