@@ -26,11 +26,12 @@ export const StyledLine = styled.hr`
   &&& {
     display: inline-block;
     width: 60px;
-    margin: 0px 15px 10px 15px;
+    margin: 0px 15px 8px 15px;
     border: 2px solid #C5D9F5;
     // Tablet - Laptop
     @media (min-width: 768px) and (max-width: 1023px) {
       width: 40px;
+      margin: 0px 15px 5px 15px;
     }
     // Tablet -
     @media (max-width: 767px) {

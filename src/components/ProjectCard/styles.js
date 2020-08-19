@@ -76,7 +76,6 @@ export const StyledTool = styled(Label)`
     background-color: #ffffff;
     border: 1px solid #68BAF0;
     color: rgba(0,0,0,.68);
-    font-family: "Verdana", "Comic Sans MS";
     font-size: 10px;
     font-weight: normal;
     margin: 0px 5px 5px 0px;

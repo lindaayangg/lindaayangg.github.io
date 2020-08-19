@@ -25,10 +25,10 @@ export const StyledHeader = styled(Header)`
     color: #fff;
     margin-top: 15px;
     font-size: 25px;
-    font-family:  "Bradley Hand", "Comic Sans MS";
+    font-family: "Karla Bold";
     // Laptop(L)+
     @media (min-width: 1440px) {
-      font-size: 42px;
+      font-size: 35px;
     }
     // Laptop - Laptop(L)
     @media (min-width: 1024px) and (max-width: 1439px) {

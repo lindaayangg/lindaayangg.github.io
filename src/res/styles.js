@@ -35,7 +35,7 @@ export const StyledSectionTitle = styled(Header)`
     text-align: center;
     font-weight: normal;
     color: #4f4f4f;
-    font-family: "Comic Sans MS";
+    font-family: Karla;
     // Laptop(L)+
     @media (min-width: 1440px) {
       font-size: 32px;
