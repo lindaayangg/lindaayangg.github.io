@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.6464b916.chunk.css",
-    "main.js": "/static/js/main.e60f93f2.chunk.js",
-    "main.js.map": "/static/js/main.e60f93f2.chunk.js.map",
+    "main.css": "/static/css/main.dc08a8b6.chunk.css",
+    "main.js": "/static/js/main.f3c09df0.chunk.js",
+    "main.js.map": "/static/js/main.f3c09df0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8f2a0001.js",
     "runtime-main.js.map": "/static/js/runtime-main.8f2a0001.js.map",
     "static/css/2.7df41cd5.chunk.css": "/static/css/2.7df41cd5.chunk.css",
-    "static/js/2.1a9de72e.chunk.js": "/static/js/2.1a9de72e.chunk.js",
-    "static/js/2.1a9de72e.chunk.js.map": "/static/js/2.1a9de72e.chunk.js.map",
+    "static/js/2.8e6ad502.chunk.js": "/static/js/2.8e6ad502.chunk.js",
+    "static/js/2.8e6ad502.chunk.js.map": "/static/js/2.8e6ad502.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.da1baa55ac212ae296b9b3d28ee6e5e0.js": "/precache-manifest.da1baa55ac212ae296b9b3d28ee6e5e0.js",
+    "precache-manifest.38798fe5306cc940722c0bfdcea9e3bc.js": "/precache-manifest.38798fe5306cc940722c0bfdcea9e3bc.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.7df41cd5.chunk.css.map": "/static/css/2.7df41cd5.chunk.css.map",
-    "static/css/main.6464b916.chunk.css.map": "/static/css/main.6464b916.chunk.css.map",
-    "static/js/2.1a9de72e.chunk.js.LICENSE.txt": "/static/js/2.1a9de72e.chunk.js.LICENSE.txt",
-    "static/media/Comic_Sans_MS.ttf": "/static/media/Comic_Sans_MS.a50f9c96.ttf",
+    "static/css/main.dc08a8b6.chunk.css.map": "/static/css/main.dc08a8b6.chunk.css.map",
+    "static/js/2.8e6ad502.chunk.js.LICENSE.txt": "/static/js/2.8e6ad502.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Karla-Regular.1b55fee6.ttf",
     "static/media/Resume_Linda_Yang.pdf": "/static/media/Resume_Linda_Yang.997c6fdb.pdf",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
     "static/media/budgetbuddy.png": "/static/media/budgetbuddy.67e8c43d.png",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.8f2a0001.js",
     "static/css/2.7df41cd5.chunk.css",
-    "static/js/2.1a9de72e.chunk.js",
-    "static/css/main.6464b916.chunk.css",
-    "static/js/main.e60f93f2.chunk.js"
+    "static/js/2.8e6ad502.chunk.js",
+    "static/css/main.dc08a8b6.chunk.css",
+    "static/js/main.f3c09df0.chunk.js"
   ]
 }
