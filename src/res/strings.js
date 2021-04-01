@@ -13,6 +13,7 @@ const strings = {
     frontend: 'frontend developer',
     hackathon: 'hackathon enthusiast',
     pharmacy: 'pharmacy technician',
+    musician: 'musician',
   },
   section: {
     about: 'A Little Bit About Me',
@@ -97,7 +98,7 @@ const strings = {
       description: 'A web application that provides a sustainable and communal grocery shopping experience.',
     }
   },
-  copyRight: '© Linda Yang 2020.',
+  copyRight: '© Linda Yang ' + new Date().getFullYear() + '.',
 };
 
 export default strings;
