@@ -13,6 +13,7 @@ export const StyledContentWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 20px;
   }
 `;
 
@@ -21,10 +22,10 @@ export const StyledHeader = styled(Header)`
     color: #000000;
     font-size: 30px;
     font-family: "Karla Bold";
-    //// Mobile(S) - Mobile(M)
-    //@media (min-width: 320px) and (max-width: 374px) {
-    //  font-size: 20px;
-    //}
+    // Mobile(S) - Tablet
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 18px;
+    }
   }
 `;
 
@@ -39,6 +40,11 @@ export const StyledRole = styled.div`
     font-size: 16px;
     &:not(:last-child) {
       margin-bottom: 16px;
+    }
+
+    // Mobile(S) - Tablet
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 14px;
     }
   }
 `;

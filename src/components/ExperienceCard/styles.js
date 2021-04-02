@@ -10,6 +10,11 @@ export const StyledSegment = styled(Segment)`
     &:not(:first-child) {
       margin-top: 10px;
     }
+
+    // Mobile(S) - Tablet
+    @media (min-width: 320px) and (max-width: 767px) {
+      padding: 32px 0;
+    }
   }
 `;
 
@@ -68,6 +73,10 @@ export const StyledPosition = styled(Header)`
     color: #c3b282;
     font-size: 18px;
     margin: 0;
+    // Mobile(S) - Tablet
+    @media (min-width: 320px) and (max-width: 767px) {
+      font-size: 16px;
+    }
   }
 `;
 

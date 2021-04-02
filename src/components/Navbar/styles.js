@@ -14,7 +14,6 @@ export const StyledNavbarWrapper = styled(Menu)`
     // Mobile(S) - Tablet
     @media (min-width: 320px) and (max-width: 767px) {
       justify-content: center;
-      padding: 20px;
     }
   }
 `;
