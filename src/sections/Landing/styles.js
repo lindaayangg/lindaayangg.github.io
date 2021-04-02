@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Header, Image} from "semantic-ui-react";
+import {Header} from "semantic-ui-react";
 
 export const StyledLandingWrapper = styled.div`
   &&& {
@@ -9,34 +9,36 @@ export const StyledLandingWrapper = styled.div`
 
 export const StyledContentWrapper = styled.div`
   &&& {
-    height: calc(80vh - 80px);
+    height: calc(75vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 `;
 
 export const StyledHeader = styled(Header)`
   &&& {
     color: #000000;
-    margin-top: 15px;
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Karla Bold";
-    // Laptop(L)+
-    @media (min-width: 1440px) {
-      font-size: 35px;
-    }
-    // Laptop - Laptop(L)
-    @media (min-width: 1024px) and (max-width: 1439px) {
-      font-size: 30px;
-    }
-    // Mobile(S) - Mobile(M)
-    @media (min-width: 320px) and (max-width: 374px) {
-      font-size: 20px;
-    }
+    //// Mobile(S) - Mobile(M)
+    //@media (min-width: 320px) and (max-width: 374px) {
+    //  font-size: 20px;
+    //}
   }
 `;
 
-export const StyledImage = styled(Image)`
+export const StyledSubHeader = styled.div`
   &&& {
-    border-radius: 20px;
+    margin-top: 40px;
   }
 `;
 
+export const StyledRole = styled.div`
+  &&& {
+    font-size: 16px;
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+`;

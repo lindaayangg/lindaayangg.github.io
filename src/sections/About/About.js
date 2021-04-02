@@ -1,38 +1,12 @@
 import React, {Component} from 'react';
-import {StyledSectionTitle, StyledSectionWrapper} from "../../res/styles";
-import {
-  StyledAboutWrapper,
-  StyledDescription,
-  StyledImage,
-  StyledImageContainer,
-  StyledLine,
-  StyledResumeButton,
-  StyledSocialButtons,
-  StyledSocialContainer
-} from "./styles";
+import {Container1040, StyledSectionWrapper} from "../../res/styles";
+import {StyledDescription, StyledImage, StyledSocialButtons, StyledSocialContainer} from "./styles";
 import strings from "../../res/strings";
-import profile from '../../res/images/profile.jpg';
+import profile1 from '../../res/images/profile1.JPG';
 import resume from "../../res/Resume_Linda_Yang.pdf";
+import {Grid, GridColumn} from "semantic-ui-react";
 
 class About extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {screenWidth: null};
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-  }
-
-  componentDidMount() {
-    window.addEventListener("resize", this.updateWindowDimensions);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener("resize", this.updateWindowDimensions)
-  }
-
-  updateWindowDimensions = () => {
-    this.setState({screenWidth: window.innerWidth});
-  };
 
   renderDescription = () => {
     return (
@@ -45,30 +19,25 @@ class About extends Component {
   };
 
   renderSocial = () => {
-    const {screenWidth} = this.state;
     return (
       <StyledSocialContainer>
         <StyledSocialButtons
           icon='linkedin'
-          size={screenWidth < 425 ? 'small' : 'medium'}
           href="https://www.linkedin.com/in/lindaayangg/"
           target="_blank"/>
         <StyledSocialButtons
           icon='github alternate'
-          size={screenWidth < 425 ? 'small' : 'medium'}
           href="https://github.com/lindaayangg"
           target="_blank"/>
         <StyledSocialButtons
           icon='mail'
-          size={screenWidth < 425 ? 'small' : 'medium'}
           href='mailto:xiaoling.yang@uwaterloo.ca'
           target="_blank"/>
-        <StyledResumeButton
+        <StyledSocialButtons
           href={resume}
-          size={screenWidth < 425 ? 'small' : 'medium'}
           target='_blank'>
           {strings.about.resume}
-        </StyledResumeButton>
+        </StyledSocialButtons>
       </StyledSocialContainer>
     )
   };
@@ -76,16 +45,17 @@ class About extends Component {
   render() {
     return (
       <StyledSectionWrapper id="about" name="about">
-        <StyledAboutWrapper>
-          <StyledSectionTitle>
-            <StyledLine/>{strings.section.about}<StyledLine/>
-          </StyledSectionTitle>
-          <StyledImageContainer>
-            <StyledImage src={profile}/>
-          </StyledImageContainer>
-          {this.renderDescription()}
-          {this.renderSocial()}
-        </StyledAboutWrapper>
+        <Container1040>
+          <Grid columns={2} stackable relaxed="very">
+            <GridColumn verticalAlign="middle" width={7}>
+              <StyledImage size="large" src={profile1}/>
+              {this.renderSocial()}
+            </GridColumn>
+            <GridColumn width={9}>
+              {this.renderDescription()}
+            </GridColumn>
+          </Grid>
+        </Container1040>
       </StyledSectionWrapper>
     )
   }

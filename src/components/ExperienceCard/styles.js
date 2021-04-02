@@ -1,57 +1,46 @@
 import styled from "styled-components";
-import {Grid, GridColumn, Header, Image, Label} from "semantic-ui-react";
+import {GridColumn, Header, Image, Label, Segment} from "semantic-ui-react";
 
-export const StyledExperienceCardGrid = styled(Grid)`
+export const StyledSegment = styled(Segment)`
   &&& {
-    margin-top: 50px;
-    text-align: center;
+    box-shadow: none;
+    border: none;
+    padding: 50px 100px;
+    
+    &:not(:first-child) {
+      margin-top: 10px;
+    }
   }
 `;
 
 export const StyledCompanyColumn = styled(GridColumn)`
-  &&& {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-  }
-`;
-
-export const StyledWorkDescriptionColumn = styled(GridColumn)`
-  &&& {
-    text-align: left;
-    // Laptop -
-    @media (max-width: 1023px) {
-      text-align: center;
-    }
+  &&&&& {
+    font-family: Karla;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 `;
 
 export const StyledCompanyLogo = styled(Image)`
   &&& {
-    width: 100px;
-    // Laptop(L)+
-    @media (min-width: 1440px) {
-      width: 120px;
-    }
+    width: 110px;
   }
 `;
 
 export const StyledNameLocationContainer = styled.div`
   &&& {
-    margin-top: 15px;
+    margin-top: 16px;
     text-align: center;
   }
 `;
 
 export const StyledCompanyName = styled(Header)`
   &&& {
-    color: #BF9BBD;
-    font-size: 16px;
+    font-family: Karla;
+    color: rgba(0,0,0,.6);
+    font-size: 18px;
     margin: 0;
-    // Laptop(L)+
-    @media (min-width: 1440px) {
-      font-size: 18px;
-    }
   }
 `;
 
@@ -59,38 +48,53 @@ export const StyledLocation = styled.p`
   &&& {
     font-size: 14px;
     color: rgba(0,0,0,.6);
-    // Laptop(L)+
-    @media (min-width: 1440px) {
-      font-size: 15px;
+  }
+`;
+
+export const StyledWorkDescriptionColumn = styled(GridColumn)`
+  &&& {
+    text-align: left;
+    font-family: Karla;
+    // Laptop -
+    @media (max-width: 1023px) {
+      text-align: center;
     }
   }
 `;
 
 export const StyledPosition = styled(Header)`
   &&& {
-    color: #BF9BBD;
-    font-size: 16px;
-    margin: 0;    
-    // Laptop(L)+
-    @media (min-width: 1440px) {
-      font-size: 18px;
-    }
+    font-family: Karla;
+    color: #c3b282;
+    font-size: 18px;
+    margin: 0;
+  }
+`;
+
+export const StyledDate = styled.p`
+  &&& {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(0,0,0,.4);
+  }
+`;
+
+export const StyledDescription = styled.p`
+  &&& {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: rgba(0,0,0,.68);
   }
 `;
 
 export const StyledSkill = styled(Label)`
   &&& {
-    background-color: #ffffff;
-    border: 1px solid #BF9BBD;
+    background-color: #f5f2ea;
+    border-radius: 15px;
     color: rgba(0,0,0,.68);
-    font-size: 10px;
+    font-size: 12px;
     font-weight: normal;
-    margin: 0px 5px 5px 0px;
-    // Laptop(L)+
-    @media (min-width: 1440px) {
-      font-size: 12px;
-    }
+    margin: 0 5px 5px 0;
   }
 `;
-
-

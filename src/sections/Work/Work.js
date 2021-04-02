@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
-import {StyledSectionTitle, StyledSectionWrapper} from "../../res/styles";
-import {StyledLine, StyledWorkWrapper} from "./styles";
+import {Container1040, StyledSectionTitle, StyledSectionWrapper} from "../../res/styles";
 import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import strings from "../../res/strings";
 import skip from "../../res/images/skip.jpg"
@@ -11,12 +10,16 @@ import sydney_stone from "../../res/images/sydney_stone.jpeg"
 class Work extends Component {
 
   render() {
+    const skipSkills = ['Java 8', 'Spark', 'ReactJS', 'JS/TS', 'AWS', 'SQL', 'REST API', 'Jooq', 'Memcached',
+      'Redis', 'ElasticSearch'];
+    const formlabsSkills = ['ReactJS', 'D3.js', 'Python', 'Django', 'DjangoCMS', 'PostgreSQL', 'JS', 'jQuery', 'GraphQL'];
+    const sydneySkills = ['HTML | CSS', 'JS', 'jQuery', 'Magento', 'PHP', 'Photoshop'];
+    const shoppersSkills = ['HealthWatch', 'MMS Software System'];
+
     return (
       <StyledSectionWrapper id="experience" name="experience">
-        <StyledWorkWrapper>
-          <StyledSectionTitle>
-            <StyledLine/>{strings.section.work}<StyledLine/>
-          </StyledSectionTitle>
+        <Container1040>
+          <StyledSectionTitle>{strings.section.work}</StyledSectionTitle>
           <ExperienceCard
             image={skip}
             company={strings.work.skip.company}
@@ -24,7 +27,7 @@ class Work extends Component {
             description={strings.work.skip.description}
             position={strings.work.skip.position}
             date={strings.work.skip.date}
-            skill={strings.work.skip.company}
+            skill={skipSkills}
           />
           <ExperienceCard
             image={formlabs}
@@ -33,7 +36,7 @@ class Work extends Component {
             description={strings.work.formlabs.description}
             position={strings.work.formlabs.position}
             date={strings.work.formlabs.date}
-            skill={strings.work.formlabs.company}
+            skill={formlabsSkills}
           />
           <ExperienceCard
             image={sydney_stone}
@@ -42,7 +45,7 @@ class Work extends Component {
             description={strings.work.sydney.description}
             position={strings.work.sydney.position}
             date={strings.work.sydney.date}
-            skill={strings.work.sydney.company}
+            skill={sydneySkills}
           />
           <ExperienceCard
             image={shoppers}
@@ -51,9 +54,9 @@ class Work extends Component {
             description={strings.work.shoppers.description}
             position={strings.work.shoppers.position}
             date={strings.work.shoppers.date}
-            skill={strings.work.shoppers.company}
+            skill={shoppersSkills}
           />
-        </StyledWorkWrapper>
+        </Container1040>
       </StyledSectionWrapper>
     )
   }

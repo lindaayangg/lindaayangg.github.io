@@ -1,20 +1,25 @@
 import React, {Component} from 'react';
-import {StyledSectionTitle, StyledSectionWrapper} from "../../res/styles";
+import {Container1040, StyledSectionTitle, StyledSectionWrapper} from "../../res/styles";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import {GridColumn} from "semantic-ui-react";
-import {StyledLine, StyledProjectGrid, StyledProjectWrapper} from "./styles";
+import {StyledProjectGrid} from "./styles";
 import strings from "../../res/strings";
 import wave from "../../res/images/wave.png"
 import budgetbuddy from "../../res/images/budgetbuddy.png"
 import distractic from "../../res/images/distractic.jpg"
-import safeme from "../../res/images/safeme.jpg"
-import groshare from "../../res/images/groshare.jpg"
 import toolsbucket from "../../res/images/toolsbucket.jpg"
 import covid19 from "../../res/images/covid19.jpg"
 
 class Project extends Component {
 
   renderProjects() {
+    const covid19Tools = ["Java", "Spring", "Spring Boot", "Flyway", "MySQL"];
+    const toolsbucketTools = ["ReactJS", "JS"];
+    const waveTools = ["Flutter", "Chirp API", "Ruby", "Ruby On Rails", "ReactJS", "MySQL", "JS"];
+    const budgetbuddyTools = ["Java", "TD Da Vinci API", "Yelp Fusion API", "Android Studio"];
+    const distracticTools = ["Java", "Google ML Kit API", "AI", "Android Studio"];
+    // const safemeTools = ["MongoDB", "NodeJS", "HTML | CSS (Bootstrap)", "HERE Maps API", "Google Places"];
+    // const groshareTools = ["HTML | CSS (Bootstrap)", "JS", "jQuery", "LAMP"];
     return (
       <StyledProjectGrid columns={3} stackable doubling>
         {/*Image size : 44 x 25 cm*/}
@@ -25,7 +30,7 @@ class Project extends Component {
             date={strings.project.covid19.date}
             description={strings.project.covid19.description}
             github={"https://github.com/lindaayangg/covid19-api"}
-            tools={strings.project.covid19.name}
+            tools={covid19Tools}
           />
         </GridColumn>
         <GridColumn>
@@ -35,7 +40,7 @@ class Project extends Component {
             date={strings.project.toolsbucket.date}
             description={strings.project.toolsbucket.description}
             github={"https://github.com/lindaayangg/ToolsBucket"}
-            tools={strings.project.toolsbucket.name}
+            tools={toolsbucketTools}
           />
         </GridColumn>
         <GridColumn>
@@ -45,7 +50,7 @@ class Project extends Component {
             date={strings.project.wave.date}
             description={strings.project.wave.description}
             github={"https://github.com/lindaayangg/Wave-Web"}
-            tools={strings.project.wave.name}
+            tools={waveTools}
           />
         </GridColumn>
         <GridColumn>
@@ -55,7 +60,7 @@ class Project extends Component {
             date={strings.project.budgetbuddy.date}
             description={strings.project.budgetbuddy.description}
             github={"https://github.com/lindaayangg/BudgetBuddy"}
-            tools={strings.project.budgetbuddy.name}
+            tools={budgetbuddyTools}
           />
         </GridColumn>
         <GridColumn>
@@ -65,29 +70,29 @@ class Project extends Component {
             date={strings.project.distractic.date}
             description={strings.project.distractic.description}
             github={"https://github.com/davidhqr/Distractic"}
-            tools={strings.project.distractic.name}
+            tools={distracticTools}
           />
         </GridColumn>
-        <GridColumn>
-          <ProjectCard
-            image={safeme}
-            name={strings.project.safeme.name}
-            date={strings.project.safeme.date}
-            description={strings.project.safeme.description}
-            github={"https://github.com/davidhqr/SafeMe"}
-            tools={strings.project.safeme.name}
-          />
-        </GridColumn>
-        <GridColumn>
-          <ProjectCard
-            image={groshare}
-            name={strings.project.groshare.name}
-            date={strings.project.groshare.date}
-            description={strings.project.groshare.description}
-            github={"https://github.com/davidhqr/GroShare"}
-            tools={strings.project.groshare.name}
-          />
-        </GridColumn>
+        {/*<GridColumn>*/}
+        {/*  <ProjectCard*/}
+        {/*    image={safeme}*/}
+        {/*    name={strings.project.safeme.name}*/}
+        {/*    date={strings.project.safeme.date}*/}
+        {/*    description={strings.project.safeme.description}*/}
+        {/*    github={"https://github.com/davidhqr/SafeMe"}*/}
+        {/*    tools={safemeTools}*/}
+        {/*  />*/}
+        {/*</GridColumn>*/}
+        {/*<GridColumn>*/}
+        {/*  <ProjectCard*/}
+        {/*    image={groshare}*/}
+        {/*    name={strings.project.groshare.name}*/}
+        {/*    date={strings.project.groshare.date}*/}
+        {/*    description={strings.project.groshare.description}*/}
+        {/*    github={"https://github.com/davidhqr/GroShare"}*/}
+        {/*    tools={groshareTools}*/}
+        {/*  />*/}
+        {/*</GridColumn>*/}
       </StyledProjectGrid>
     )
   }
@@ -95,12 +100,12 @@ class Project extends Component {
   render() {
     return (
       <StyledSectionWrapper id="project" name="project">
-        <StyledProjectWrapper>
+        <Container1040>
           <StyledSectionTitle>
-            <StyledLine/>{strings.section.project}<StyledLine/>
+            {strings.section.project}
           </StyledSectionTitle>
           {this.renderProjects()}
-        </StyledProjectWrapper>
+        </Container1040>
       </StyledSectionWrapper>
     )
   }
