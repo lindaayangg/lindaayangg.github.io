@@ -7,14 +7,17 @@ import strings from "../../res/strings";
 import wave from "../../res/images/wave.png"
 import budgetbuddy from "../../res/images/budgetbuddy.png"
 import distractic from "../../res/images/distractic.jpg"
-import toolsbucket from "../../res/images/toolsbucket.jpg"
 import covid19 from "../../res/images/covid19.jpg"
+import wics from "../../res/images/wics.png"
+import coderintuition from "../../res/images/coderintuition.png"
 
 class Project extends Component {
 
   renderProjects() {
-    const covid19Tools = ["Java", "Spring", "Spring Boot", "Flyway", "MySQL"];
-    const toolsbucketTools = ["ReactJS", "JS"];
+    const coderTools = ["Java", "Spring", "ReactJS", "JS/TS", "NextJS", "MySQL"];
+    const wicsTools = ["ReactJS"];
+    const covid19Tools = ["Java", "Spring", "Flyway", "MySQL"];
+    // const toolsbucketTools = ["ReactJS", "JS"];
     const waveTools = ["Flutter", "Chirp API", "Ruby", "Ruby On Rails", "ReactJS", "MySQL", "JS"];
     const budgetbuddyTools = ["Java", "TD Da Vinci API", "Yelp Fusion API", "Android Studio"];
     const distracticTools = ["Java", "Google ML Kit API", "AI", "Android Studio"];
@@ -25,22 +28,32 @@ class Project extends Component {
         {/*Image size : 44 x 25 cm*/}
         <GridColumn>
           <ProjectCard
+            image={coderintuition}
+            name={strings.project.coderintuition.name}
+            date={strings.project.coderintuition.date}
+            description={strings.project.coderintuition.description}
+            github={"https://coderintuition.com/"}
+            tools={coderTools}
+          />
+        </GridColumn>
+        <GridColumn>
+          <ProjectCard
+            image={wics}
+            name={strings.project.wics.name}
+            date={strings.project.wics.date}
+            description={strings.project.wics.description}
+            github={"http://wics.uwaterloo.ca/"}
+            tools={wicsTools}
+          />
+        </GridColumn>
+        <GridColumn>
+          <ProjectCard
             image={covid19}
             name={strings.project.covid19.name}
             date={strings.project.covid19.date}
             description={strings.project.covid19.description}
             github={"https://github.com/lindaayangg/covid19-api"}
             tools={covid19Tools}
-          />
-        </GridColumn>
-        <GridColumn>
-          <ProjectCard
-            image={toolsbucket}
-            name={strings.project.toolsbucket.name}
-            date={strings.project.toolsbucket.date}
-            description={strings.project.toolsbucket.description}
-            github={"https://github.com/lindaayangg/ToolsBucket"}
-            tools={toolsbucketTools}
           />
         </GridColumn>
         <GridColumn>
@@ -73,6 +86,16 @@ class Project extends Component {
             tools={distracticTools}
           />
         </GridColumn>
+        {/*<GridColumn>*/}
+        {/*  <ProjectCard*/}
+        {/*    image={toolsbucket}*/}
+        {/*    name={strings.project.toolsbucket.name}*/}
+        {/*    date={strings.project.toolsbucket.date}*/}
+        {/*    description={strings.project.toolsbucket.description}*/}
+        {/*    github={"https://github.com/lindaayangg/ToolsBucket"}*/}
+        {/*    tools={toolsbucketTools}*/}
+        {/*  />*/}
+        {/*</GridColumn>*/}
         {/*<GridColumn>*/}
         {/*  <ProjectCard*/}
         {/*    image={safeme}*/}

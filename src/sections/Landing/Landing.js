@@ -34,8 +34,8 @@ class Landing extends Component {
               </StyledHeader>
             </div>
             <StyledSubHeader>
-              <StyledRole>Currently Software Engineer Intern @ Meter</StyledRole>
-              <StyledRole>Previous intern @ SkipTheDishes, Formlabs</StyledRole>
+              <StyledRole>{strings.landing.currentRole}</StyledRole>
+              <StyledRole>{strings.landing.previousRole}</StyledRole>
             </StyledSubHeader>
           </StyledContentWrapper>
         </Container1040>

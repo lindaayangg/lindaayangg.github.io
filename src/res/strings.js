@@ -13,6 +13,8 @@ const strings = {
     hackathon: 'hackathon enthusiast',
     pharmacy: 'pharmacy technician',
     musician: 'musician',
+    currentRole: 'Current Software Engineer Intern @ Meter, Research Assistant @ UWaterloo',
+    previousRole: 'Previous intern @ SkipTheDishes, Formlabs',
   },
   section: {
     work: 'My Experiences',
@@ -20,14 +22,21 @@ const strings = {
   },
   about: {
     introduction: 'Hello there! I am a fourth year Computational Mathematics student at the University of Waterloo ' +
-      'with a double minor in Combinatorics & Optimization and Statistics. ' +
+      'with a double minor in Combinatorics & Optimization and Statistics. My main area of interest and focus is computational biology. ' +
       'I am a software developer and a hackthon enthusiast who enjoys building software for the community and making an impact!',
     experience: 'In the past, I\'ve led the development team of WiCS UW, interned as a backend software developer at SkipTheDishes, and a web developer at Formlabs. ' +
       'I\'d love to chat about tech and am always open to internship opportunities and new challenges. ',
-    hobby: 'During my free time, I enjoy photography, playing the piano & cello, working out and skating. I am always done for a chat about anything!',
+    hobby: 'During my free time, I enjoy playing the piano & cello, working out and skating. I am always down for a chat about anything!',
     resume: 'Resume'
   },
   work: {
+    meter: {
+      company: 'Meter Parts',
+      location: 'Cambridge, Massachusetts (Remote)',
+      position: 'Software Engineer, Internship',
+      date: 'Jan. 2021 - Apr. 2021',
+      description: 'Involved in developing the front-end and back-end of the software of a revolutionary machine that can see inside of anything.'
+    },
     skip: {
       company: 'SkipTheDishes',
       location: 'Winnipeg, Manitoba',
@@ -59,6 +68,16 @@ const strings = {
     },
   },
   project: {
+    coderintuition: {
+      name: 'CoderIntuition',
+      date: 'Ongoing',
+      description: 'An interactive platform for coders to learn algorithmic intuition.',
+    },
+    wics: {
+      name: 'WiCS UWaterloo',
+      date: '2020',
+      description: 'A static website for the Women in Computer Science committee at the University of Waterloo. Developer lead role.',
+    },
     covid19: {
       name: 'Covid-19 API',
       date: '2020',

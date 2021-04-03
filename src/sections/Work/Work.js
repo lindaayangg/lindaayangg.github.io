@@ -6,10 +6,12 @@ import skip from "../../res/images/skip.jpg"
 import formlabs from "../../res/images/formlabs.png"
 import shoppers from "../../res/images/shoppers.png"
 import sydney_stone from "../../res/images/sydney_stone.jpeg"
+import meter from "../../res/images/meter.png"
 
 class Work extends Component {
 
   render() {
+    const meterSkills = ['Python', 'ReactJS', 'JS/TS', 'Electron', 'WebSocket'];
     const skipSkills = ['Java 8', 'Spark', 'ReactJS', 'JS/TS', 'AWS', 'SQL', 'REST API', 'Jooq', 'Memcached',
       'Redis', 'ElasticSearch'];
     const formlabsSkills = ['ReactJS', 'D3.js', 'Python', 'Django', 'DjangoCMS', 'PostgreSQL', 'JS', 'jQuery', 'GraphQL'];
@@ -20,6 +22,15 @@ class Work extends Component {
       <StyledSectionWrapper id="experience" name="experience">
         <Container1040>
           <StyledSectionTitle>{strings.section.work}</StyledSectionTitle>
+          <ExperienceCard
+            image={meter}
+            company={strings.work.meter.company}
+            location={strings.work.meter.location}
+            description={strings.work.meter.description}
+            position={strings.work.meter.position}
+            date={strings.work.meter.date}
+            skill={meterSkills}
+          />
           <ExperienceCard
             image={skip}
             company={strings.work.skip.company}
