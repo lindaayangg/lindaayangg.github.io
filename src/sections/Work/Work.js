@@ -11,7 +11,7 @@ import meter from "../../res/images/meter.png"
 class Work extends Component {
 
   render() {
-    const meterSkills = ['Python', 'ReactJS', 'JS/TS', 'Electron', 'WebSocket'];
+    const meterSkills = ['Python', 'ReactJS', 'JS/TS', 'Electron', 'WebSocket', 'AWS', 'Docker', 'Kubernetes', 'Ansible'];
     const skipSkills = ['Java 8', 'Spark', 'ReactJS', 'JS/TS', 'AWS', 'SQL', 'REST API', 'Jooq', 'Memcached',
       'Redis', 'ElasticSearch'];
     const formlabsSkills = ['ReactJS', 'D3.js', 'Python', 'Django', 'DjangoCMS', 'PostgreSQL', 'JS', 'jQuery', 'GraphQL'];
