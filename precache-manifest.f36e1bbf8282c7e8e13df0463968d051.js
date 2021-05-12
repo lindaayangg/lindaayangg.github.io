@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f2d38fc2c7fe088699b1446949670ef",
+    "revision": "129c38c1aa285fda33c01775482167a3",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.8557acdd.chunk.css"
   },
   {
-    "revision": "970ce8040034ba5a4846",
+    "revision": "c43637abd6bd42d20eb2",
     "url": "/static/css/main.dc08a8b6.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a0ac6130.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "970ce8040034ba5a4846",
-    "url": "/static/js/main.8431442c.chunk.js"
+    "revision": "c43637abd6bd42d20eb2",
+    "url": "/static/js/main.228b9f7e.chunk.js"
   },
   {
     "revision": "5cd748bf68fe7a70f7a6",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Karla-Regular.1b55fee6.ttf"
   },
   {
-    "revision": "997c6fdbe368a6d0c3d34d797599558a",
-    "url": "/static/media/Resume_Linda_Yang.997c6fdb.pdf"
+    "revision": "71e815238f8b700f879b488c0ac79ae7",
+    "url": "/static/media/Resume_Linda_Yang.71e81523.pdf"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
