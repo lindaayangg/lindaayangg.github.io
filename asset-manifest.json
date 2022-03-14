@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.dc08a8b6.chunk.css",
-    "main.js": "/static/js/main.228b9f7e.chunk.js",
-    "main.js.map": "/static/js/main.228b9f7e.chunk.js.map",
+    "main.js": "/static/js/main.f9c67dc9.chunk.js",
+    "main.js.map": "/static/js/main.f9c67dc9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2868f187.js",
     "runtime-main.js.map": "/static/js/runtime-main.2868f187.js.map",
     "static/css/2.8557acdd.chunk.css": "/static/css/2.8557acdd.chunk.css",
-    "static/js/2.a0ac6130.chunk.js": "/static/js/2.a0ac6130.chunk.js",
-    "static/js/2.a0ac6130.chunk.js.map": "/static/js/2.a0ac6130.chunk.js.map",
+    "static/js/2.5a3fcec1.chunk.js": "/static/js/2.5a3fcec1.chunk.js",
+    "static/js/2.5a3fcec1.chunk.js.map": "/static/js/2.5a3fcec1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f36e1bbf8282c7e8e13df0463968d051.js": "/precache-manifest.f36e1bbf8282c7e8e13df0463968d051.js",
+    "precache-manifest.cc194a8ec136f1ddf492f93cefc0b211.js": "/precache-manifest.cc194a8ec136f1ddf492f93cefc0b211.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.8557acdd.chunk.css.map": "/static/css/2.8557acdd.chunk.css.map",
     "static/css/main.dc08a8b6.chunk.css.map": "/static/css/main.dc08a8b6.chunk.css.map",
-    "static/js/2.a0ac6130.chunk.js.LICENSE.txt": "/static/js/2.a0ac6130.chunk.js.LICENSE.txt",
+    "static/js/2.5a3fcec1.chunk.js.LICENSE.txt": "/static/js/2.5a3fcec1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Karla-Regular.1b55fee6.ttf",
     "static/media/Resume_Linda_Yang.pdf": "/static/media/Resume_Linda_Yang.71e81523.pdf",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
@@ -22,6 +22,7 @@
     "static/media/covid19.jpg": "/static/media/covid19.765e26b9.jpg",
     "static/media/distractic.jpg": "/static/media/distractic.07feeef6.jpg",
     "static/media/profile1.JPG": "/static/media/profile1.0af240cf.JPG",
+    "static/media/shopify.jpeg": "/static/media/shopify.e61317d6.jpeg",
     "static/media/shoppers.png": "/static/media/shoppers.9f9fdd18.png",
     "static/media/skip.jpg": "/static/media/skip.4697a32d.jpg",
     "static/media/wave.png": "/static/media/wave.6a2bd933.png",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.2868f187.js",
     "static/css/2.8557acdd.chunk.css",
-    "static/js/2.a0ac6130.chunk.js",
+    "static/js/2.5a3fcec1.chunk.js",
     "static/css/main.dc08a8b6.chunk.css",
-    "static/js/main.228b9f7e.chunk.js"
+    "static/js/main.f9c67dc9.chunk.js"
   ]
 }
