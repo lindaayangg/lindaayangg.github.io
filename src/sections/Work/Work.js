@@ -7,10 +7,14 @@ import formlabs from "../../res/images/formlabs.png"
 import shoppers from "../../res/images/shoppers.png"
 import sydney_stone from "../../res/images/sydney_stone.jpeg"
 import meter from "../../res/images/meter.png"
+import shopify from "../../res/images/shopify.jpeg"
+import newfront from "../../res/images/newfront.png"
 
 class Work extends Component {
 
   render() {
+    const newfrontSkills = ['TypeScript', 'AWS', 'Docker', 'Google Cloud'];
+    const shopifySkills = ['Ruby', 'Ruby On Rails', 'GraphQL'];
     const meterSkills = ['Python', 'ReactJS', 'JS/TS', 'Electron', 'WebSocket', 'AWS', 'Docker', 'Kubernetes', 'Ansible'];
     const skipSkills = ['Java 8', 'Spark', 'ReactJS', 'JS/TS', 'AWS', 'SQL', 'REST API', 'Jooq', 'Memcached',
       'Redis', 'ElasticSearch'];
@@ -22,6 +26,24 @@ class Work extends Component {
       <StyledSectionWrapper id="experience" name="experience">
         <Container1040>
           <StyledSectionTitle>{strings.section.work}</StyledSectionTitle>
+          <ExperienceCard
+            image={newfront}
+            company={strings.work.newfront.company}
+            location={strings.work.newfront.location}
+            description={strings.work.newfront.description}
+            position={strings.work.newfront.position}
+            date={strings.work.newfront.date}
+            skill={newfrontSkills}
+          />
+          <ExperienceCard
+            image={shopify}
+            company={strings.work.shopify.company}
+            location={strings.work.shopify.location}
+            description={strings.work.shopify.description}
+            position={strings.work.shopify.position}
+            date={strings.work.shopify.date}
+            skill={shopifySkills}
+          />
           <ExperienceCard
             image={meter}
             company={strings.work.meter.company}

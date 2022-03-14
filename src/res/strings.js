@@ -13,8 +13,8 @@ const strings = {
     hackathon: 'hackathon enthusiast',
     pharmacy: 'pharmacy technician',
     musician: 'musician',
-    currentRole: 'Current Undergraduate Research Assistant @ UWaterloo',
-    previousRole: 'Previous intern @ Meter Parts, SkipTheDishes, Formlabs',
+    currentRole: 'Current Software Engineer Intern @ Newfront; Undergraduate Research Assistant @ UWaterloo',
+    previousRole: 'Previous intern @ Shopify, Meter Parts, SkipTheDishes, Formlabs',
   },
   section: {
     work: 'My Experiences',
@@ -22,14 +22,28 @@ const strings = {
   },
   about: {
     introduction: 'Hello there! I am a fourth year Computational Mathematics student at the University of Waterloo ' +
-      'with a double minor in Combinatorics & Optimization and Statistics. My main area of interest and focus is computational biology. ' +
+      'with a double minor in Statistics and Computing. My main area of interest and focus is computational biology. ' +
       'I am a software developer and a hackthon enthusiast who enjoys building software for the community and making an impact!',
-    experience: 'In the past, I\'ve led the development team of WiCS UW, interned as a software engineer at Meter Parts, backend software developer at SkipTheDishes, and a web developer at Formlabs. ' +
-      'I\'d love to chat about tech and am always open to internship opportunities and new challenges. ',
-    hobby: 'During my free time, I enjoy playing the piano & cello, working out and skating. I am always down for a chat about anything!',
+    experience: 'In the past, I\'ve led the development team of WiCS UW, interned as a backend developer at Shopify, software engineer at Meter Parts, backend developer at SkipTheDishes, and a web developer at Formlabs. ' +
+      'I\'d love to chat about tech and am always open to opportunities and new challenges. ',
+    hobby: 'During my free time, I enjoy playing the piano & cello, practicing ballet and skating. I am always down for a chat about anything!',
     resume: 'Resume'
   },
   work: {
+    newfront: {
+      company: 'Newfront',
+      location: 'San Francisco, California (Remote)',
+      position: 'Software Engineer, Internship',
+      date: 'Jan. 2022 - Apr. 2022',
+      description: 'Platform Team.'
+    },
+    shopify: {
+      company: 'Shopify',
+      location: 'Toronto, Ontario (Remote)',
+      position: 'Backend Developer, Internship',
+      date: 'Sep. 2021 - Dec. 2021',
+      description: 'Inventory Team.'
+    },
     meter: {
       company: 'Meter Parts',
       location: 'Cambridge, Massachusetts (Remote)',
